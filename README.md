@@ -16,7 +16,10 @@ Le but était de comprendre le fonctionnement des différents éléments qui com
 /pitch/pitch_class.py : class de création du model incluant : préparation des données d'entrainement et de prédiction, création des graphs, entrainement, prédiction, verbose, etc.
 
 ## Résultat
-Comparé au perceptron (image de gauche) les résultats sur le dataset exam.csv sont plus précis et permettent une meilleur classification avec le deepceptron (image de droite).
+Comparé au perceptron (image de supérieur) les résultats sur le dataset exam.csv sont plus précis et permettent une meilleur classification avec le deepceptron (image de droite).
 
+Résultat avec le perceptron :
 ![perceptron](https://github.com/PlomteuxKevin/deepceptron/assets/168406292/13cec4bf-7320-448a-9658-34d2f5526629)
+
+Résultat avec le deepceptron (réseau de neurone) :
 ![deepceptron](https://github.com/PlomteuxKevin/deepceptron/assets/168406292/6813a2bc-d249-4e11-b36c-58ca488b41a1)
