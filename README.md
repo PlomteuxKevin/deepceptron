@@ -9,10 +9,11 @@ Le but était de comprendre le fonctionnement des différents éléments qui com
 **exam.py :** contient le model, charge le dataset exam.csv et prédit le résultat de classification.<br />
 
 ### Class
-/akiplot/akiplot.py : une surclasse créé pour faciliter la création de graphique avec MathPlotLib et simplifier le code.<br />
-/pitch/perceptron.py : le perceptron en lui même.<br />
-/pitch/vprint.py : une surclasse à print() permettant de faciliter l'affichage en mode verbose du model.<br />
-/pitch/pitch_class.py : class de création du model incluant : préparation des données d'entrainement et de prédiction, création des graphs, entrainement, prédiction, verbose, etc.
+**/akiplot/akiplot.py :** une surclasse créé pour faciliter la création de graphique avec MathPlotLib et simplifier le code.<br />
+**/pitch/perceptron.py :** le perceptron en lui même.<br />
+**/pitch/vprint.py :** une surclasse à print() permettant de faciliter l'affichage en mode verbose du model.<br />
+**/pitch/pitch_class.py :** class de création du model incluant : préparation des données d'entrainement et de prédiction, création des graphs, entrainement, prédiction, verbose, etc.<br />
+**/pitch/layer_class.py :** class permettant la mise en couche (layer) des perceptrons afin de créer un réseau de neurone.
 
 ## Résultat
 Comparé au perceptron, les résultats sur le dataset exam.csv du deepceptron sont plus précis et permettent une meilleur classification non linéaire.
