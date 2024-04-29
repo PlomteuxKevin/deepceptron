@@ -6,8 +6,7 @@ Le but était de comprendre le fonctionnement des différents éléments qui com
 
 ## Contenu
 ### Main file
-**iris.py :** contient le model, charge le dataset iris.csv et prédit le résultat de classification.<br />
-**exam.py :** même exercice que iris.py mais sur d'autres données.<br />
+**exam.py :** contient le model, charge le dataset exam.csv et prédit le résultat de classification.<br />
 
 ### Class
 /akiplot/akiplot.py : une surclasse créé pour faciliter la création de graphique avec MathPlotLib et simplifier le code.<br />
